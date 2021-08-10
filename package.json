@@ -1,0 +1,38 @@
+{
+  "name": "name",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prettier": "prettier --check **/*.js",
+    "prettier:fix": "prettier --write **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QGIsK/<name>"
+  },
+  "keywords": [
+  ],
+  "author": {
+    "name": "Demian <QGisK>",
+    "email": "devaccdemiann@gmail.com",
+    "url": "https://demiann.dev"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QGIsK/<name>/issues"
+  },
+  "homepage": "https://github.com/QGIsK/<name>#readme",
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-security": "^1.4.0",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+  }
+}
